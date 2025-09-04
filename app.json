@@ -1,0 +1,21 @@
+{
+  "name": "Entrega+ - Política de Privacidade",
+  "description": "Política de Privacidade do app Entrega+",
+  "repository": "https://github.com/seu-usuario/entrega-plus-privacy",
+  "logo": "https://cdn-icons-png.flaticon.com/512/2906/2906274.png",
+  "keywords": ["privacy", "policy", "entrega-plus", "html", "static"],
+  "stack": "heroku-22",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": []
+}
